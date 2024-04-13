@@ -1,0 +1,6 @@
+.post{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1em;
+    border: 2px solid black;
+}

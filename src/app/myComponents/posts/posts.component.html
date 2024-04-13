@@ -1,20 +1,20 @@
-<div>
+<div class="post">
     <div *ngIf="post.imageLocation==null && post.videoLocation==null; then thenBlock else elseBlock"></div>
     <ng-template #thenBlock>
-        <div>{{post.title}}</div>
+        <h4>{{post.title}}</h4>
         <div>{{post.category}}</div>
         <div>{{post.details}}</div>
     </ng-template>
     <ng-template #elseBlock>
         <div *ngIf="post.imageLocation==null; then thenBlock else elseBlock"></div>
         <ng-template #thenBlock>
-            <div>{{post.title}}</div>
-            <video [src]="post.videoLocation"></video>
+            <h4>{{post.title}}</h4>
+            <video [src]="post.videoLocation" controls ></video>
             <div>{{post.category}}</div>
             <div>{{post.details}}</div>
         </ng-template>
         <ng-template #elseBlock>
-            <div>{{post.title}}</div>
+            <h4>{{post.title}}</h4>
             <img [src]="post.imageLocation" alt="">
             <div>{{post.category}}</div>
             <div>{{post.details}}</div>

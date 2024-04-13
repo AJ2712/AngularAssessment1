@@ -5,8 +5,7 @@
 }
 .content{
     min-width: 80%;
-    min-height: 60vh;
-    border: 2px solid red;
+    min-height: 60%;
     background-color: rgb(246, 242, 236);
 }
 .ads{

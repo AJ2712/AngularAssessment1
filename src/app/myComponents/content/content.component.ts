@@ -7,7 +7,7 @@ import { post } from '../../post';
 })
 export class ContentComponent implements OnInit{
   posts: post[];
-  randomPosts : post[];
+  randomPosts : post[] = [];
   constructor() {
     this.posts = [
       { 
