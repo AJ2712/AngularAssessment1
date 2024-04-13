@@ -1,0 +1,12 @@
+.navbar{
+    margin-bottom: 0.1em;
+    color: black;
+}
+.nav-link{
+    color: black;
+}
+.active{
+    background-color: rgb(152, 209, 190);
+    color: red;
+    text-decoration: underline;
+}

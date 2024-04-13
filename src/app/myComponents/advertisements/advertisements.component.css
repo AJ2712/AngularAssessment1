@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    margin-right: 0;
+    padding-left: 5em;
+    padding-bottom: 2em;
+}
+.img{
+    border-image: stretch;
+    margin: 1em;
+    width: 150%;
+}
